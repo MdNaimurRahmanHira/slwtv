@@ -1,0 +1,599 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/*============= all part css start from here=========== */
+
+.container-fluid {
+    padding: 0;
+}
+
+.cover-img {
+    background: url(../images/IMG_7591.JPG) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    height: 100vh;
+}
+
+.background-1 {
+    background: #ECF0F1;
+    box-shadow: -20px 0px 20px #5d5d5d30;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.circle-img {
+    background: white;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border-radius: 50%;
+    border: 5px solid #0984E350;
+    top: 50%;
+    left: 37%;
+    transform: translate(-50%, -50%);
+
+}
+
+.circle-img img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.social-icon-bg {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    background: #0984E3;
+    height: 80%;
+    width: 100%;
+    border-radius: 40px;
+}
+
+.title-desc-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 250px;
+    color: white;
+    width: 45%;
+    transform: translate(-50%, -50%);
+}
+
+.title-desc-wrapper h2 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.title-desc-wrapper p {
+    font-size: 20px;
+
+}
+
+.title-desc-wrapper h3 {
+    font-size: 30px;
+}
+
+.title-desc-wrapper hr {
+    border-top: 1px solid rgb(202, 202, 202);
+    width: 270px;
+    text-align: center;
+    display: inline-block;
+    align-self: center;
+}
+
+.social-icon-wrapper .icons:first-child {
+    top: 20%;
+    right: 35%;
+}
+
+.social-icon-wrapper .icons:nth-child(2) {
+    top: 20%;
+    right: 10%;
+}
+
+.social-icon-wrapper .icons:nth-child(3) {
+    top: 50%;
+    right: 35%;
+}
+
+.social-icon-wrapper .icons:nth-child(4) {
+    top: 50%;
+    right: 10%;
+}
+
+.social-icon-wrapper .icons:nth-child(5) {
+    top: 80%;
+    right: 22%;
+}
+
+.icons {
+    position: absolute;
+    background: white;
+    width: 200px;
+    height: 70px;
+    padding: 10px;
+    font-size: 25px;
+    color: #0984E3;
+    border-radius: 25px;
+    transition: all .4s;
+
+}
+
+.icons:hover {
+    box-shadow: 10px 10px 10px rgb(70, 70, 70);
+}
+
+.icons i {
+    font-size: 30px;
+
+}
+
+/*============= all part css end here=========== */
+
+
+/*============= responsive part start from here=========== */
+@media screen and (max-width:1550px) {
+    .icons {
+        width: 150px;
+        font-size: 20px;
+        padding: 10px;
+        height: 60px;
+        border-radius: 20px;
+
+    }
+
+    .title-desc-wrapper {
+        width: 30%;
+    }
+
+    .icons i {
+        font-size: 25px;
+
+    }
+}
+
+@media screen and (max-width:1440px) {
+    .title-desc-wrapper {
+        width: 30%;
+    }
+
+    .title-desc-wrapper h2 {
+        font-size: 45px;
+    }
+
+    .title-desc-wrapper h3 {
+        font-size: 25px;
+    }
+
+    .title-desc-wrapper p {
+        font-size: 15px;
+    }
+
+    .title-desc-wrapper hr {
+        width: 240px;
+    }
+}
+
+@media screen and (max-width:1380px) {
+    .title-desc-wrapper {
+        left: 230px;
+    }
+
+    .social-icon-wrapper .icons:first-child {
+        top: 27%;
+        right: 33%;
+    }
+
+    .social-icon-wrapper .icons:nth-child(2) {
+        top: 27%;
+        right: 10%;
+    }
+
+    .social-icon-wrapper .icons:nth-child(3) {
+        top: 50%;
+        right: 33%;
+    }
+
+    .social-icon-wrapper .icons:nth-child(4) {
+        top: 50%;
+        right: 10%;
+    }
+
+    .social-icon-wrapper .icons:nth-child(5) {
+        top: 70%;
+        right: 20%;
+    }
+
+}
+
+@media screen and (max-width:1300px) {
+    .circle-img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .title-desc-wrapper {
+        left: 170px;
+        width: 25%;
+    }
+
+    .title-desc-wrapper h2 {
+        font-size: 30px;
+    }
+
+    .title-desc-wrapper h3 {
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+
+    .title-desc-wrapper p {
+        font-size: 15px;
+    }
+
+    .title-desc-wrapper hr {
+        margin: 0;
+        width: 150px;
+    }
+}
+
+@media screen and (max-width:1150px) {
+    .social-icon-wrapper .icons {
+        width: 130px;
+        height: 50px;
+        padding: 2px;
+        font-size: 20px;
+    }
+
+    .social-icon-wrapper .icons i {
+        font-size: 20px;
+    }
+
+    .title-desc-wrapper {
+        width: 22%;
+        left: 145px;
+    }
+
+    .title-desc-wrapper h2 {
+        font-size: 22px;
+        margin-bottom: 0;
+    }
+
+    .title-desc-wrapper h3 {
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+
+    .title-desc-wrapper p {
+        font-size: 12px;
+    }
+
+    .title-desc-wrapper hr {
+        width: 100px;
+    }
+}
+
+@media screen and (max-width:1150px) {
+    .social-icon-wrapper .icons {
+        width: 110px;
+        height: 40px;
+        font-size: 15px;
+
+    }
+
+    .social-icon-wrapper .icons i {
+        font-size: 20px;
+    }
+
+    .title-desc-wrapper {
+        left: 130px;
+    }
+
+    .title-desc-wrapper h3 {
+        font-size: 11px;
+    }
+
+    .title-desc-wrapper p {
+        font-size: 10px;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width:840px) {
+    .social-icon-wrapper .icons {
+        width: 80px;
+        height: 30px;
+        font-size: 12px;
+        padding: 2px;
+    }
+
+    .social-icon-wrapper .icons i {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width:715px) {
+    .circle-img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .title-desc-wrapper {
+        left: 100px;
+
+    }
+
+    .title-desc-wrapper h3 {
+        font-size: 10px;
+    }
+
+    .title-desc-wrapper hr {
+        display: block;
+        margin: 5px auto;
+        width: 70px;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .title-desc-wrapper {
+        width: 20%;
+        left: 88px;
+    }
+
+    .title-desc-wrapper h2 {
+        font-size: 16px;
+    }
+
+    .title-desc-wrapper h3 {
+        font-size: 8px;
+    }
+
+    .title-desc-wrapper p {
+        font-size: 5px;
+    }
+
+    .social-icon-wrapper .icons {
+        width: 70px;
+        height: 25px;
+        font-size: 10px;
+    }
+
+    .social-icon-wrapper .icons:first-child {
+        top: 27%;
+        right: 37%;
+    }
+
+    .social-icon-wrapper .icons:nth-child(2) {
+        top: 27%;
+        right: 10%;
+    }
+
+    .social-icon-wrapper .icons:nth-child(3) {
+        top: 50%;
+        right: 37%;
+    }
+
+    .social-icon-wrapper .icons:nth-child(4) {
+        top: 50%;
+        right: 10%;
+    }
+
+    .social-icon-wrapper .icons:nth-child(5) {
+        top: 70%;
+        right: 23%;
+    }
+}
+
+@media screen and (max-width:570px) {
+   
+    .cover-img {
+        background-position: bottom;
+        height: 50vh;
+    }
+
+    .social-icon-bg {
+        top: 60%;
+        left: 50%;
+        height: 75%;
+        transform: translate(-50%, -50%);
+    }
+
+    .circle-img {
+        top: 23%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+
+    .title-desc-wrapper {
+        width: 100%;
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .title-desc-wrapper h2 {
+        font-size: 30px;
+    }
+
+    .title-desc-wrapper h3 {
+        font-size: 15px;
+    }
+
+    .social-icon-wrapper .icons {
+        width: 100px;
+        height: 45px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .social-icon-wrapper .icons i {
+        font-size: 18px;
+    }
+
+    .social-icon-wrapper .icons:first-child {
+        top: 50%;
+        left: 10%;
+    }
+
+    .social-icon-wrapper .icons:nth-child(2) {
+        top: 50%;
+        right: 10%;
+    }
+
+    .social-icon-wrapper .icons:nth-child(3) {
+        top: 65%;
+        left: 10%;
+    }
+
+    .social-icon-wrapper .icons:nth-child(4) {
+        top: 65%;
+        right: 10%;
+    }
+
+    .social-icon-wrapper .icons:nth-child(5) {
+        top: 85%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+
+    .background-1 {
+        top: 30%;
+        left: 0;
+        height: 70%;
+        width: 100%;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 80px;
+    }
+}
+
+@media screen and (max-width:510px) {
+    .social-icon-wrapper .icons {
+        width: 100px;
+        height: 40px;
+        text-align: center;
+        font-size: 15px;
+
+    }
+
+    .social-icon-wrapper .icons i {
+        font-size: 17px;
+    }
+
+    .social-icon-wrapper .icons:first-child {
+        top: 50%;
+        left: 10%;
+    }
+
+    .social-icon-wrapper .icons:nth-child(2) {
+        top: 50%;
+        right: 10%;
+    }
+
+    .social-icon-wrapper .icons:nth-child(3) {
+        top: 65%;
+        left: 10%;
+    }
+
+    .social-icon-wrapper .icons:nth-child(4) {
+        top: 65%;
+        right: 10%;
+    }
+
+    .social-icon-wrapper .icons:nth-child(5) {
+        top: 85%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+
+}
+
+@media screen and (max-width:430px) {
+
+    .title-desc-wrapper {
+        top: 20%;
+    }
+    .title-desc-wrapper{
+        top: 23%;
+    }
+    .circle-img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .col-7 {
+        max-width: 80%;
+    }
+
+    .background-1 {
+        height: 60%;
+        top: 40%;
+    }
+
+    .social-icon-wrapper .icons {
+        width: 120px;
+        height: 50px;
+        font-size: 12px;
+        font-size: 18px;
+    }
+
+    .social-icon-wrapper .icons i {
+        font-size: 25px;
+    }
+
+    .social-icon-wrapper .icons:first-child {
+        top: 40%;
+        left: 10%;
+    }
+
+    .social-icon-wrapper .icons:nth-child(2) {
+        top: 40%;
+        right: 10%;
+    }
+
+    .social-icon-wrapper .icons:nth-child(3) {
+        top: 60%;
+        left: 10%;
+    }
+
+    .social-icon-wrapper .icons:nth-child(4) {
+        top: 60%;
+        right: 10%;
+    }
+
+    .social-icon-wrapper .icons:nth-child(5) {
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+}
+@media screen and (max-width:385px) {
+    .social-icon-wrapper .icons{
+        width: 110px;
+        font-size: 16px;
+    }
+    .social-icon-wrapper .icons i{
+        font-size: 20px;
+    }
+}
+/*============= responsive part end here=========== */
